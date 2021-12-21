@@ -1,0 +1,31 @@
+[package]
+name = "process-dump"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "process_dump"
+crate-type = ["cdylib"]      # Creates dynamic lib
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+"memflow-win32" = "0.1.5"
+toml = "0.5"
+dataview = "0.1"
+serde = { version = "1.0", default-features = false, features = ["derive", "alloc"] }
+clap = "2.33"
+simple_logger = "1.0"
+log = "0.4.14"
+memflow-coredump = "0.1"
+memflow = "0.1.4"
+libc = "0.2.112"
+
+[dev_dependencies]
+simple_logger = "1.0"
+win_key_codes = "0.1"
+rand = "0.7"
+rand_xorshift = "0.2"
+clap = "2.33"
+toml = "0.5"
+colored = "2.0"
