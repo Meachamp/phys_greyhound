@@ -1,5 +1,5 @@
 # phys_greyhound
-This is an experimental patch for (Greyhound)[https://github.com/Scobalula/Greyhound] to enable reading from physical memory dumps. This patchset should allow you to dump memory from anti-cheat protected games.
+This is an experimental patch for [Greyhound](https://github.com/Scobalula/Greyhound) to enable reading from physical memory dumps. This patchset should allow you to dump memory from anti-cheat protected games.
 
 See the Releases page for a precompiled version.
 
